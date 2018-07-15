@@ -31,7 +31,7 @@ Login :
           password: password
           
 Run Json File:  
-              1. inside src\data\db1.json file slect and open cmd and  enter  json-server --watch db1.json and enter.
+              1. inside src\data\db1.json file slect and open cmd and  enter  json-server --watch db1.json 
         2. now run on browser http://localhost:4200/
-         E:\angularfinal\src\data> json-server --watch db1.json
+        
           
