@@ -1,0 +1,14 @@
+button {
+   
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+   
+  }
+  .mybtn{
+    margin: 16px 0;
+    width: 100%;
+    background-color: rgb(54, 173, 144);
+  }

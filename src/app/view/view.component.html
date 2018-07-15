@@ -1,0 +1,35 @@
+
+
+
+
+<div class="col-md-12">
+    <h2> User Details</h2>
+    
+    
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Profile</th>
+      </tr>
+      </thead>
+      <tbody>
+     <tr >
+        
+       
+        <td>{{ssm.firstName}}</td>
+        <td>{{ssm.lastName}}</td>
+        <td>{{ssm.email}}</td>
+       
+        <td><img [attr.src]="ssm.image"   height="100px" width="100px"/></td>
+        
+        
+          
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  

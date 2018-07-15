@@ -1,0 +1,46 @@
+<div class="col-md-12">
+ <!-- 
+  <h2 *ngFor="let user1 of users;let ind = index"> User Details
+
+    <img [attr.src]="user1.image"  height="100px" width="100px"/>
+  </h2>
+
+-->
+
+  
+
+    <button class="mybtn" (click)="addUser()"> Add User</button>
+  
+  
+
+  
+
+  <table class="table ">
+    <thead>
+    <tr>
+      <th class="hidden">Sno.</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+   <tr *ngFor="let user of users;let ind = index">
+    
+      <td class="hidden">{{ind+1}}</td>
+      <td>{{user.firstName}}</td>
+      <td>{{user.lastName}}</td>
+      <td>{{user.email}}</td>
+      
+     
+  
+      <td><button class="btn btn-danger" (click)="deleteUser(user)"> Delete</button>
+        <button class="btn btn-danger" (click)="editUser(user)" style="margin-left: 20px;"> Edit</button>
+        <button class="btn btn-danger" (click)="viewUser(user)" style="margin-left: 20px;"> View</button>
+      </td>
+        
+    </tr>
+    </tbody>
+  </table>
+</div>
